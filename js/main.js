@@ -11,7 +11,7 @@ let delCounter = 0;
 
 addToDoButton.addEventListener('click', function() {
 
-    let inValue = inputField.value
+    let inValue = inputField.value.trim();
 
     const template = `
         <li class="">
