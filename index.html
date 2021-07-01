@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>To-Do List App</title>
+  </head>
+  <body>
+    <h1>WORKS TO BE DONE</h1>
+    <div id="popUp">Длина должна быть больше 3 символов</div>
+    <div class="container">
+      <div class="done-count" id="doneCount">Done: 0</div>
+      <div class="deleted-count" id="deletedCount">Deleted: 0</div>
+
+      <input id="inputField" placeholder="Enter the work" type="text" />
+      <button id="addToDo">+</button>
+      <div class="to-dos" id="toDoContainer"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
